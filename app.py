@@ -8,7 +8,7 @@ st.markdown('Toy model to play to classify iris flowers into \
         (sentosa, versicolor, virginica) based on their sepal/petal \
         and lenght/width.')
 
-st,header("Plant Features")
+st.header("Plant Features")
 col1, col2 = st.column(2)
 
 with col1:
