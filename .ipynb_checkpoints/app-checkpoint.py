@@ -17,7 +17,7 @@ with col1:
     sepal_w = st.slider('Sepal width (cm) ', 2.0, 2.5, 0.5)
 
 with col2:
-    st.test("Petal characteristics")
+    st.text("Petal characteristics")
     petal_1 = st.slider('Petal lenght (cm)', 1.0, 7.0, 0.5)
     petal_w = st.slider('Petal width (cm)', 2.0, 2.5, 0.5)
 
