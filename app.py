@@ -9,7 +9,7 @@ st.markdown('Toy model to play to classify iris flowers into \
         and lenght/width.')
 
 st.header("Plant Features")
-col1, col2 = st.column(2)
+col1, col2 = st.columns(2)
 
 with col1:
     st.text("Sepal characteristics")
